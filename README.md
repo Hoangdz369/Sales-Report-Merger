@@ -107,7 +107,7 @@ Sau khi chạy xong, file báo cáo `bao_cao_tong_hop.xlsx` sẽ được tạo 
 ![Facebook gốc](images/Facebook.png)
 
 **TikTok**
-![TikTok gốc](images/Tiktok.png)
+![TikTok gốc](images/TikTok.png)
 
 ### Sau khi gộp (file báo cáo thống nhất)
 
@@ -115,7 +115,7 @@ Sau khi chạy xong, file báo cáo `bao_cao_tong_hop.xlsx` sẽ được tạo 
 ![Ảnh kết quả sheet 1](images/Ket_qua_sheet_1.png)
 
 
-![Ảnh kết quả sheet 2](images/Ket_qua_sheet_2.png)
+![Ảnh kết quả sheet 2](images\Ket_qua_sheet_2.png)
 
 ## 6. Công nghệ sử dụng
 
