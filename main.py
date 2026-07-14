@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Đọc file excel
-df_shopee = pd.read_excel("Shopee.xlsx") #Thay tên file excel của bạn vào đây
-df_facebook = pd.read_excel("Facebook.xlsx") #Thay tên file excel của bạn vào đây
-df_tiktok = pd.read_excel("TikTok.xlsx") #Thay tên file excel của bạn vào đây
+df_shopee = pd.read_excel("sample_data_test/Shopee.xlsx") #Thay tên file excel của bạn vào đây
+df_facebook = pd.read_excel("sample_data_test/Facebook.xlsx") #Thay tên file excel của bạn vào đây
+df_tiktok = pd.read_excel("sample_data_test/TikTok.xlsx") #Thay tên file excel của bạn vào đây
 
 # Tạo cột mẫu cho bảng df shopee mới
 mapping_shopee = {
@@ -122,7 +122,7 @@ def export_excel(df_export_excel):
     df_doanh_thu_kenh = df_thieu.groupby("Kenh")["Thanh_tien"].sum()
 
     # Export excel
-    with pd.ExcelWriter("file_export_excel_04.xlsx") as writer:
+    with pd.ExcelWriter("sample_data_test/bao_cao_tong_hop.xlsx") as writer:
         df_export_excel.to_excel(writer, sheet_name="Chi tiết doanh thu", index=False)
         df_doanh_thu_kenh.to_excel(writer,sheet_name="Doanh thu theo kênh")
 
